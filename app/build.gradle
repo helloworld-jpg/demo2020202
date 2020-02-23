@@ -17,11 +17,11 @@ android {
         }
 
     }
-    applicationVariants.all { variant ->
+   /* applicationVariants.all { variant ->
         if (variant.buildType.name == "debug") {
             variant.getPackageApplicationProvider().get().outputDirectory = new File(project.rootDir.absolutePath + "/apk")
         }
-    }
+    }*/
     /*applicationVariants.all { variant ->
         if (variant.buildType.name == "debug") {
             variant.getPackageApplicationProvider().get().outputDirectory = new File(project.rootDir.absolutePath + "/apk")
